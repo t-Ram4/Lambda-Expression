@@ -1,0 +1,23 @@
+Functional Interface
+A functional interface is an interface that has one and only one abstract method.
+
+Lambda Expression
+
+It is a shorthand way of writing an instance of a class that implements a functional interface
+
+
+public interface MyInterface{
+
+public void test();
+
+}
+
+public class MyClass implements MyInterface{
+
+public void test(){
+
+System.out.println("test");
+
+}
+
+}
